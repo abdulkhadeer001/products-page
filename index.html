@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earthly | Product website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo"> EARTHLY</h1>
+        <ul class="nav-links">
+            <li class="active"> <a href="#"></a>Home</li>
+            <li> <a href="#"></a>Products</li>
+            <li> <a href="#"></a>Explore</li>
+            <li> <a href="#"></a>About</li>
+            <li class="ctn"> <a href="#"></a>Contact</li>
+        </ul>
+
+        <img src="./images/menu.png" alt="" class="menu-btn">
+
+    </nav>
+
+
+    <header>
+        <div class="header-content">
+            <h2> Explore The Sustainable Products</h2>
+            <h1> A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1> Our Products</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./images/kit1.png"; height= 250px, width=250px, alt="">
+                <h4>Sustinable Water Bottle</h4>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam 
+                     placeat mollitia rerum!</p>
+                     <a href="#" class="ctn">Learn More</a>
+            </div>
+
+            <div class="col">
+                <img src="./images/kit2.png"; height=250px, width=250px, alt="">
+                <h4>Re-Usable Straw</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.     
+                             T otam 
+                     placeat mollitia rerum!</p>
+                     <a href="#" class="ctn">Learn More</a>
+            </div>
+        
+        </div>
+
+     </section>
+
+       <section class="explore">
+        <div class="explore-content">
+             <h1> Plant Based Reusable Cup</h1>
+             <div class="line"></div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio est 
+              possimus natus quo assumenda expedita?</p>
+              <a href="#" class="ctn">Learn More</a>
+         </div>
+       </section>
+
+       <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1> Mostly Customer Liked Products</h1>
+                <Div class="line"></Div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, 
+                     quibusdam.</p>
+                     <a href="#" class="ctn"> Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./images/kit3.png" alt="">
+                    <img src="./images/kit4.png" alt="">
+                    <img src="./images/kit5.png" alt="">
+                    <img src="./images/kit6.png" alt="">
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <section class="footer">
+        <p>2nd Floor Mabu Manzil, Water Tank Road, Yanamalakuduru, Donka Road, | Phone: 
+             123-456-897 | Email: abdulkhadeerkhadeer187@gmail.X-UA-Compatible</p>
+             <p>Copyright @ 2023 Sustainable Products by Abdul Khadeer</p>
+
+       </section>
+
+        
+
+
+
+    <script>
+
+        const  menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        });
+    </script>
+    
+</body>
+</html>
